@@ -3,10 +3,6 @@ const ranked = document.getElementById("ranked");
 const nick = document.getElementById("nickname");
 const elo = document.getElementById("elo");
 
-window.onload = function () {
-  params();
-}
-
 async function params() {
   const url = new URL(window.location.href);
 
