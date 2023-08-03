@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Bebas';
+  src: url("../fonts/BebasNeue-Regular.ttf") format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  font-family: Bebas;
+  font-size: 15px;
+  align-items: center;
+  text-align: center;
+  text-shadow: #000 -2px -2px;
+  color: white;
+  position: absolute;
+  white-space: nowrap;
+  margin: 0;
+}
+
+#container {
+  background-image: url("../images/unranked.png");
+  width: 240px;
+  height: 140px;
+}
+
+#ranked {
+  font-size: 25px;
+  top: 15px;
+  left: 81px;
+}
+
+.nickname {
+  font-size: 21px;
+  top: 56px;
+  left: 100px;
+}
+
+.elo {
+  font-size: 21px;
+  top: 81px;
+  left: 105px;
+}
+
+.website {
+  font-size: 16px;
+  top: 120px;
+  left: 123px;
+}
