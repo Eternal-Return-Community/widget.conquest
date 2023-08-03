@@ -27,7 +27,7 @@ async function params() {
 }
 
 async function showPlayerInfo(team, nickname) {
-  const response = await fetch(`http://localhost:3000/?team=${team}&nickname=${nickname}`);
+  const response = await fetch(`https://widget-r1x9.onrender.com/?team=${team}&nickname=${nickname}`);
   const { position, name, mmr } = await response.json();
 
   if (!name) {
