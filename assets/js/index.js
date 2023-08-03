@@ -40,7 +40,7 @@ async function showPlayerInfo(team, nickname) {
   ranked.innerHTML = `Ranked -  ${formatTeamName(team)}`;
   nick.innerHTML = `${name} (#${position})`;
   elo.innerHTML = elo_.formatElo;
-  container.style.backgroundImage = `url('../../assets/images/${elo_.image}.png')`;
+  container.style.backgroundImage = `url('./assets/images/${elo_.image}.png')`;
 }
 
 function formatTeamName(team) {
